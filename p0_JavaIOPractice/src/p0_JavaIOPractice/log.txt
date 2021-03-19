@@ -1,0 +1,20 @@
+Aiden Tepper, ajtepper@wisc.edu, Lecture 001
+
+Type any phrase to see it repeated backwards
+hello world!
+
+The reversed phrase is: !dlrow olleh
+
+I will now reverse the phrase found on the file 'input.txt'
+Type 'YES!' to continue (without the quotations)
+no
+Type 'YES!' to continue (without the quotations)
+YES!
+
+The original phrase is: My name is Aiden and I'm a freshman at UW-Madison
+The reversed phrase is: nosidaM-WU ta namhserf a m'I dna nediA si eman yM
+
+Type any phrase, I will append the reversed phrase to the end of the output file
+the quick brown fox jumps over the lazy dog
+
+Done!
