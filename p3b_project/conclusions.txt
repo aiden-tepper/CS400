@@ -1,0 +1,29 @@
+p3b CONCLUSIONS.TXT
+
+Complete p3b and answer the following questions using results of running JDK Mission Control to justify your conclusions..
+
+1) What can you tell about the performance of your hash table implementation compared to Java's tree map? 
+Explain why (or when) your hash table is better or worse than Java's Tree Map.
+
+My hash table implementation performed much better than Java's TreeMap in terms of speed (CPU cycles). Through the
+test, my hash table operations took 83 counts while the TreeMap took 253 -- my implementation was around three times
+faster. However, in terms of memory, my implementation was more bulky. The hash table took up 738 MiB, while the
+TreeMap took up 331 MiB for the same number of elements (10,000,000).
+
+2) What did you observe in jdk mission control to come to the conclusion above?
+
+As I mentioned above, I noticed in the Method Profiling pane that the hash table operations took 83 counts while the
+TreeMap took 253 counts. In the Memory pane, the section labeled HashTable$HashNode was allocated 738 MiB, while the
+section labeled java.util.TreeMap$Entry was allocated 331 MiB.
+
+3) SCREENSHOT_001.PNG NOTES: Briefly describe what this image 001 shows
+
+SCREENSHOT_001.PNG shows the Memory pane, where the statistics about the memory usage of my implementation vs Java's
+TreeMap are displayed.
+
+4) SCREENSHOT_002.PNG NOTES: Briefly describe what this image 002 shows
+
+SCREENSHOT_002.PNG shows the Method Profiling pane, where the statistics about speed of my implementation vs Java's
+TreeMap are displayed.
+
+5) Describe other screenshots if you include them in your submission.
